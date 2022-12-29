@@ -32,7 +32,6 @@
     "jest-resolve": "^27.4.2",
     "jest-watch-typeahead": "^1.0.0",
     "mini-css-extract-plugin": "^2.4.5",
-    "photowall": "git+https://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@github.com/Middeaslam/photowall.git",
     "postcss": "^8.4.4",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-loader": "^6.2.1",
@@ -56,10 +55,11 @@
     "webpack": "^5.64.4",
     "webpack-dev-server": "^4.6.0",
     "webpack-manifest-plugin": "^4.0.2",
-    "workbox-webpack-plugin": "^6.4.1"
+    "workbox-webpack-plugin": "^6.4.1",
+    "photowall": "git+https://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@github.com/Middeaslam/photowall.git"
   },
   "scripts": {
-    "start": "node scripts/start.js",
+    "start": "SET NODE_ENV=development && node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js"
   },
@@ -137,6 +137,7 @@
     "@babel/plugin-proposal-export-default-from": "^7.18.10",
     "@babel/plugin-proposal-optional-chaining": "^7.20.7",
     "@babel/plugin-proposal-private-methods": "^7.18.6",
+    "@babel/plugin-transform-react-jsx": "^7.20.7",
     "@babel/plugin-transform-runtime": "^7.19.6",
     "@babel/preset-env": "^7.20.2",
     "@babel/preset-react": "^7.18.6"
