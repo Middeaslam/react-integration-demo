@@ -1,5 +1,5 @@
 {
-  "name": "react-js-proj",
+  "name": "react-integration-demo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -32,6 +32,7 @@
     "jest-resolve": "^27.4.2",
     "jest-watch-typeahead": "^1.0.0",
     "mini-css-extract-plugin": "^2.4.5",
+    "photowall": "git+https://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@github.com/Middeaslam/photowall.git",
     "postcss": "^8.4.4",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-loader": "^6.2.1",
@@ -131,9 +132,13 @@
     ],
     "resetMocks": true
   },
-  "babel": {
-    "presets": [
-      "react-app"
-    ]
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-export-default-from": "^7.18.10",
+    "@babel/plugin-proposal-optional-chaining": "^7.20.7",
+    "@babel/plugin-proposal-private-methods": "^7.18.6",
+    "@babel/plugin-transform-runtime": "^7.19.6",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6"
   }
 }
