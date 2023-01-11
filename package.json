@@ -32,6 +32,7 @@
     "jest-resolve": "^27.4.2",
     "jest-watch-typeahead": "^1.0.0",
     "mini-css-extract-plugin": "^2.4.5",
+    "photowall": "git+https://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@github.com/Middeaslam/photowall.git",
     "postcss": "^8.4.4",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-loader": "^6.2.1",
@@ -55,8 +56,7 @@
     "webpack": "^5.64.4",
     "webpack-dev-server": "^4.6.0",
     "webpack-manifest-plugin": "^4.0.2",
-    "workbox-webpack-plugin": "^6.4.1",
-    "photowall": "git+https://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@github.com/Middeaslam/photowall.git"
+    "workbox-webpack-plugin": "^6.4.1"
   },
   "scripts": {
     "start": "SET NODE_ENV=development && node scripts/start.js",
